@@ -20,9 +20,8 @@
  * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
  * IN THE SOFTWARE.
  */
- #endregion
+#endregion
 using System;
-using System.Runtime.CompilerServices;
 
 namespace Keeg.IO.NumberHelpers
 {
