@@ -40,7 +40,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="NumberHelpers\BitwiseRotate.cs" />
+    <Compile Include="NumberHelpers\DoubleUnion.cs" />
+    <Compile Include="NumberHelpers\Endian.cs" />
+    <Compile Include="NumberHelpers\SingleUnion.cs" />
+    <Compile Include="NumberHelpers\Swap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
