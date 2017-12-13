@@ -37,9 +37,9 @@ namespace Keeg.IO.NumberHelpers
 #endif
     }
 
-    public static partial class NumberHelper
+    public static partial class NumberHelpers
     {
-        internal static bool Doswap(Endian endian)
+        public static bool Doswap(this Endian endian)
         {
             if (endian == Endian.Native)
                 return false;
